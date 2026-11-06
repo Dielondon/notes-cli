@@ -11,7 +11,7 @@ Node runs the TypeScript directly (type stripping), so there is no build step.
 - TypeScript, strict. Relative imports end in `.ts`. Only erasable syntax (no enums, no namespaces).
 - Logic lives in `src/notes.ts` as pure functions; `src/cli.ts` only parses arguments and prints.
 - Every behaviour change gets a vitest test in `test/`, written BEFORE the implementation.
-- Keep functions under 30 lines. No new dependencies: package.json is protected.
+- Keep functions under 30 lines. package.json is protected, so nothing new can be installed.
 
 ## Factory rules
 - Phase state lives in `.factory/` as markdown files. Never put plan or review text in code comments.

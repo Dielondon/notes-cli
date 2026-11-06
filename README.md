@@ -25,3 +25,7 @@ Este repo trae un gate: `gates/no-new-deps.sh` detiene código que importa un pa
 
 Lo que tú cambias: `AGENTS.md` (el contexto), `gates/` (tus revisiones), `prompts/` (las fases).
 Haz commit en `main` antes de cada corrida. Nada se mergea: los PRs son para comparar.
+
+## Tus gates
+
+Lee [`gates/README.md`](gates/README.md): las reglas y cuatro ejemplos para copiar y adaptar.
