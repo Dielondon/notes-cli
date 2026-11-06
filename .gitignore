@@ -1,0 +1,6 @@
+node_modules/
+notes.json
+*.tsbuildinfo
+coverage/
+__pycache__/
+.DS_Store
